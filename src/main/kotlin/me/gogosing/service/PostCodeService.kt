@@ -32,8 +32,9 @@ interface PostCodeService {
 
 @Service
 class PostCodeServiceImpl(
-    @Value("\${e-post.service-key:}") val serviceKey: String,
-    val restTemplate: RestTemplate
+    @Value("\${e-post.service-key:}")
+    private val serviceKey: String,
+    private val restTemplate: RestTemplate
 ) : PostCodeService {
 
     private val logger = LoggerFactory.getLogger(PostCodeServiceImpl::class.java)
