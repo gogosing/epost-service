@@ -1,4 +1,4 @@
-package io.crsdevbros.integration.model
+package me.gogosing.model
 
 /**
  * 주소 검색 payload.

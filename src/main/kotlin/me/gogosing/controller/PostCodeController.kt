@@ -1,7 +1,7 @@
 package me.gogosing.controller
 
-import io.crsdevbros.integration.model.PostCodePaginationResult
-import io.crsdevbros.integration.model.PostCodeRequest
+import me.gogosing.model.PostCodePaginationResult
+import me.gogosing.model.PostCodeRequest
 import me.gogosing.service.PostCodeService
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody

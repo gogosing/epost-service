@@ -1,4 +1,4 @@
-package io.crsdevbros.integration.model
+package me.gogosing.model
 
 import com.fasterxml.jackson.annotation.JsonProperty
 

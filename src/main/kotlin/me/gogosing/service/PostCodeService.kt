@@ -1,8 +1,8 @@
 package me.gogosing.service
 
-import io.crsdevbros.integration.model.Paging
-import io.crsdevbros.integration.model.PostCodeItem
-import io.crsdevbros.integration.model.PostCodePaginationResult
+import me.gogosing.model.Paging
+import me.gogosing.model.PostCodeItem
+import me.gogosing.model.PostCodePaginationResult
 import me.gogosing.model.epost.ExternalResponse
 import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Value
